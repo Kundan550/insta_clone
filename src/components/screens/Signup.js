@@ -24,7 +24,7 @@ const Signup = ()=>{
            method:"post",
            body:data
        })
-       .then(res=>res.json())
+       
        .then(data=>{
           setUrl(data.url)
        })
